@@ -1,0 +1,16 @@
+[Unit]
+Description=Python Linux System Health Monitor Daemon
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/linux-system-monitor
+ExecStart=/usr/bin/python3 /opt/linux-system-monitor/main.py daemon --config /opt/linux-system-monitor/config/config.json
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

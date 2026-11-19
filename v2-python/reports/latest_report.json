@@ -1,0 +1,551 @@
+{
+  "generated_at": "2026-11-05T05:46:49.526853+00:00",
+  "system_metadata": {
+    "hostname": "LAPTOP-732GBOVK",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "system": "Windows",
+    "release": "11",
+    "architecture": "AMD64",
+    "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+    "python_version": "3.14.6"
+  },
+  "active_alerts": [],
+  "period_summary_stats": {
+    "cpu": {
+      "avg_percent": 36.4,
+      "min_percent": 32.9,
+      "max_percent": 42.2,
+      "samples": 3
+    },
+    "ram": {
+      "avg_percent": 89.6,
+      "min_percent": 89.4,
+      "max_percent": 90.1,
+      "samples": 3
+    }
+  },
+  "current_snapshot": {
+    "timestamp": "2026-11-05T05:46:46.324333+00:00",
+    "metadata": {
+      "hostname": "LAPTOP-732GBOVK",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "system": "Windows",
+      "release": "11",
+      "architecture": "AMD64",
+      "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+      "python_version": "3.14.6"
+    },
+    "cpu": {
+      "total_percent": 56.2,
+      "per_core_percent": [
+        63.7,
+        41.9,
+        57.1,
+        55.7,
+        62.7,
+        48.3,
+        58.3,
+        61.2
+      ],
+      "logical_cores": 8,
+      "physical_cores": 4,
+      "frequency": {
+        "current_mhz": 1609.0,
+        "min_mhz": null,
+        "max_mhz": 2112.0
+      },
+      "load_average": {
+        "1_min": 0.0,
+        "5_min": 0.0,
+        "15_min": 0.0,
+        "load_per_core_1min": 0.0
+      },
+      "times_percent": {
+        "user": 18.5,
+        "system": 34.6,
+        "idle": 43.8
+      },
+      "stats": {
+        "ctx_switches": 132403674,
+        "interrupts": 76054747,
+        "soft_interrupts": 0
+      }
+    },
+    "memory": {
+      "ram": {
+        "total_bytes": 4089434112,
+        "available_bytes": 438730752,
+        "used_bytes": 3650703360,
+        "free_bytes": 438730752,
+        "percent": 89.3,
+        "total_human": "3.81 GB",
+        "available_human": "418.41 MB",
+        "used_human": "3.40 GB",
+        "free_human": "418.41 MB"
+      },
+      "swap": {
+        "total_bytes": 7516192768,
+        "used_bytes": 960909312,
+        "free_bytes": 6555283456,
+        "percent": 12.8,
+        "total_human": "7.00 GB",
+        "used_human": "916.39 MB",
+        "free_human": "6.11 GB",
+        "sin_bytes": 0,
+        "sout_bytes": 0
+      }
+    },
+    "disk": {
+      "partitions": [
+        {
+          "device": "C:\\",
+          "mountpoint": "C:\\",
+          "fstype": "NTFS",
+          "total_bytes": 368885886976,
+          "used_bytes": 133876641792,
+          "free_bytes": 235009245184,
+          "percent": 36.3,
+          "total_human": "343.55 GB",
+          "used_human": "124.68 GB",
+          "free_human": "218.87 GB"
+        }
+      ],
+      "io": {
+        "available": true,
+        "read_bytes": 161812864512,
+        "write_bytes": 58620583424,
+        "read_count": 4552791,
+        "write_count": 1437923,
+        "read_time_ms": 10310,
+        "write_time_ms": 1038,
+        "read_bytes_per_sec": 83344499.8,
+        "write_bytes_per_sec": 40252948.2,
+        "read_speed_human": "79.48 MB/s",
+        "write_speed_human": "38.39 MB/s"
+      }
+    },
+    "network": {
+      "overall": {
+        "bytes_sent": 58157452,
+        "bytes_recv": 835619129,
+        "bytes_sent_human": "55.46 MB",
+        "bytes_recv_human": "796.91 MB",
+        "packets_sent": 268929,
+        "packets_recv": 408394,
+        "errors_in": 0,
+        "errors_out": 0,
+        "upload_speed_bytes_sec": 154848.0,
+        "download_speed_bytes_sec": 17683.1,
+        "upload_speed_human": "151.22 KB/s",
+        "download_speed_human": "17.27 KB/s"
+      },
+      "interfaces": [
+        {
+          "interface": "Wi-Fi",
+          "is_up": true,
+          "speed_mbps": 120,
+          "mtu": 1500,
+          "bytes_sent": 58157452,
+          "bytes_recv": 835619129,
+          "bytes_sent_human": "55.46 MB",
+          "bytes_recv_human": "796.91 MB",
+          "packets_sent": 268929,
+          "packets_recv": 408394,
+          "errors_in": 0,
+          "errors_out": 0,
+          "drop_in": 0,
+          "drop_out": 0,
+          "upload_speed_bytes_sec": 154848.0,
+          "download_speed_bytes_sec": 17683.1,
+          "upload_speed_human": "151.22 KB/s",
+          "download_speed_human": "17.27 KB/s",
+          "addresses": [
+            {
+              "family": "IPv4",
+              "address": "192.168.1.7",
+              "netmask": "255.255.255.0"
+            },
+            {
+              "family": "IPv6",
+              "address": "fe80::c302:f1b3:3d31:5ad9"
+            }
+          ]
+        },
+        {
+          "interface": "Loopback Pseudo-Interface 1",
+          "is_up": true,
+          "speed_mbps": 1073,
+          "mtu": 1500,
+          "bytes_sent": 0,
+          "bytes_recv": 0,
+          "bytes_sent_human": "0.00 B",
+          "bytes_recv_human": "0.00 B",
+          "packets_sent": 0,
+          "packets_recv": 0,
+          "errors_in": 0,
+          "errors_out": 0,
+          "drop_in": 0,
+          "drop_out": 0,
+          "upload_speed_bytes_sec": 0.0,
+          "download_speed_bytes_sec": 0.0,
+          "upload_speed_human": "0.00 B/s",
+          "download_speed_human": "0.00 B/s",
+          "addresses": [
+            {
+              "family": "IPv4",
+              "address": "127.0.0.1",
+              "netmask": "255.0.0.0"
+            },
+            {
+              "family": "IPv6",
+              "address": "::1"
+            }
+          ]
+        },
+        {
+          "interface": "Ethernet",
+          "is_up": false,
+          "speed_mbps": 0,
+          "mtu": 1500,
+          "bytes_sent": 0,
+          "bytes_recv": 0,
+          "bytes_sent_human": "0.00 B",
+          "bytes_recv_human": "0.00 B",
+          "packets_sent": 0,
+          "packets_recv": 0,
+          "errors_in": 0,
+          "errors_out": 0,
+          "drop_in": 0,
+          "drop_out": 0,
+          "upload_speed_bytes_sec": 0.0,
+          "download_speed_bytes_sec": 0.0,
+          "upload_speed_human": "0.00 B/s",
+          "download_speed_human": "0.00 B/s",
+          "addresses": [
+            {
+              "family": "IPv4",
+              "address": "169.254.248.252",
+              "netmask": "255.255.0.0"
+            },
+            {
+              "family": "IPv6",
+              "address": "fe80::b6da:5562:d907:9021"
+            }
+          ]
+        },
+        {
+          "interface": "Local Area Connection* 1",
+          "is_up": false,
+          "speed_mbps": 0,
+          "mtu": 1500,
+          "bytes_sent": 0,
+          "bytes_recv": 0,
+          "bytes_sent_human": "0.00 B",
+          "bytes_recv_human": "0.00 B",
+          "packets_sent": 0,
+          "packets_recv": 0,
+          "errors_in": 0,
+          "errors_out": 0,
+          "drop_in": 0,
+          "drop_out": 0,
+          "upload_speed_bytes_sec": 0.0,
+          "download_speed_bytes_sec": 0.0,
+          "upload_speed_human": "0.00 B/s",
+          "download_speed_human": "0.00 B/s",
+          "addresses": [
+            {
+              "family": "IPv4",
+              "address": "169.254.191.127",
+              "netmask": "255.255.0.0"
+            },
+            {
+              "family": "IPv6",
+              "address": "fe80::eb13:5db4:ab3b:d887"
+            }
+          ]
+        },
+        {
+          "interface": "Local Area Connection* 2",
+          "is_up": false,
+          "speed_mbps": 0,
+          "mtu": 1500,
+          "bytes_sent": 0,
+          "bytes_recv": 0,
+          "bytes_sent_human": "0.00 B",
+          "bytes_recv_human": "0.00 B",
+          "packets_sent": 0,
+          "packets_recv": 0,
+          "errors_in": 0,
+          "errors_out": 0,
+          "drop_in": 0,
+          "drop_out": 0,
+          "upload_speed_bytes_sec": 0.0,
+          "download_speed_bytes_sec": 0.0,
+          "upload_speed_human": "0.00 B/s",
+          "download_speed_human": "0.00 B/s",
+          "addresses": [
+            {
+              "family": "IPv4",
+              "address": "169.254.132.71",
+              "netmask": "255.255.0.0"
+            },
+            {
+              "family": "IPv6",
+              "address": "fe80::5bc7:1f43:9398:11f6"
+            }
+          ]
+        },
+        {
+          "interface": "Bluetooth Network Connection",
+          "is_up": false,
+          "speed_mbps": 3,
+          "mtu": 1500,
+          "bytes_sent": 0,
+          "bytes_recv": 0,
+          "bytes_sent_human": "0.00 B",
+          "bytes_recv_human": "0.00 B",
+          "packets_sent": 0,
+          "packets_recv": 0,
+          "errors_in": 0,
+          "errors_out": 0,
+          "drop_in": 0,
+          "drop_out": 0,
+          "upload_speed_bytes_sec": 0.0,
+          "download_speed_bytes_sec": 0.0,
+          "upload_speed_human": "0.00 B/s",
+          "download_speed_human": "0.00 B/s",
+          "addresses": [
+            {
+              "family": "IPv4",
+              "address": "169.254.87.180",
+              "netmask": "255.255.0.0"
+            },
+            {
+              "family": "IPv6",
+              "address": "fe80::5c66:d9dd:d14d:a246"
+            }
+          ]
+        }
+      ]
+    },
+    "processes": {
+      "total_processes": 235,
+      "status_distribution": {
+        "running": 227,
+        "stopped": 8
+      },
+      "top_by_cpu": [
+        {
+          "pid": 0,
+          "name": "System Idle Process",
+          "username": "NT AUTHORITY\\SYSTEM",
+          "status": "running",
+          "cpu_percent": 344.7,
+          "memory_percent": 0.0,
+          "rss_bytes": 8192,
+          "vms_bytes": 61440,
+          "rss_human": "8.00 KB",
+          "num_threads": 24,
+          "started": ""
+        },
+        {
+          "pid": 15456,
+          "name": "python.exe",
+          "username": "LAPTOP-732GBOVK\\abhin",
+          "status": "running",
+          "cpu_percent": 89.8,
+          "memory_percent": 1.4,
+          "rss_bytes": 57901056,
+          "vms_bytes": 296038400,
+          "rss_human": "55.22 MB",
+          "num_threads": 15,
+          "started": "2026-11-05 05:46:34 UTC"
+        },
+        {
+          "pid": 5388,
+          "name": "mc-fw-host.exe",
+          "username": "N/A",
+          "status": "running",
+          "cpu_percent": 77.8,
+          "memory_percent": 2.9,
+          "rss_bytes": 119758848,
+          "vms_bytes": 406544384,
+          "rss_human": "114.21 MB",
+          "num_threads": 188,
+          "started": "2026-10-29 08:49:50 UTC"
+        },
+        {
+          "pid": 17324,
+          "name": "Antigravity.exe",
+          "username": "LAPTOP-732GBOVK\\abhin",
+          "status": "running",
+          "cpu_percent": 51.2,
+          "memory_percent": 5.2,
+          "rss_bytes": 213413888,
+          "vms_bytes": 267288576,
+          "rss_human": "203.53 MB",
+          "num_threads": 22,
+          "started": "2026-11-05 03:52:48 UTC"
+        },
+        {
+          "pid": 4500,
+          "name": "CrossDeviceService.exe",
+          "username": "LAPTOP-732GBOVK\\abhin",
+          "status": "running",
+          "cpu_percent": 44.8,
+          "memory_percent": 3.0,
+          "rss_bytes": 121339904,
+          "vms_bytes": 113979392,
+          "rss_human": "115.72 MB",
+          "num_threads": 91,
+          "started": "2026-10-29 08:50:03 UTC"
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "username": "NT AUTHORITY\\SYSTEM",
+          "status": "running",
+          "cpu_percent": 42.2,
+          "memory_percent": 0.0,
+          "rss_bytes": 765952,
+          "vms_bytes": 61440,
+          "rss_human": "748.00 KB",
+          "num_threads": 333,
+          "started": ""
+        },
+        {
+          "pid": 1656,
+          "name": "dwm.exe",
+          "username": "N/A",
+          "status": "running",
+          "cpu_percent": 25.2,
+          "memory_percent": 0.9,
+          "rss_bytes": 37138432,
+          "vms_bytes": 94302208,
+          "rss_human": "35.42 MB",
+          "num_threads": 23,
+          "started": "2026-10-29 08:49:47 UTC"
+        },
+        {
+          "pid": 3056,
+          "name": "MemCompression",
+          "username": "N/A",
+          "status": "running",
+          "cpu_percent": 21.1,
+          "memory_percent": 3.9,
+          "rss_bytes": 159834112,
+          "vms_bytes": 3059712,
+          "rss_human": "152.43 MB",
+          "num_threads": 203,
+          "started": "2026-10-29 08:49:47 UTC"
+        }
+      ],
+      "top_by_memory": [
+        {
+          "pid": 17324,
+          "name": "Antigravity.exe",
+          "username": "LAPTOP-732GBOVK\\abhin",
+          "status": "running",
+          "cpu_percent": 51.2,
+          "memory_percent": 5.2,
+          "rss_bytes": 213413888,
+          "vms_bytes": 267288576,
+          "rss_human": "203.53 MB",
+          "num_threads": 22,
+          "started": "2026-11-05 03:52:48 UTC"
+        },
+        {
+          "pid": 3056,
+          "name": "MemCompression",
+          "username": "N/A",
+          "status": "running",
+          "cpu_percent": 21.1,
+          "memory_percent": 3.9,
+          "rss_bytes": 159834112,
+          "vms_bytes": 3059712,
+          "rss_human": "152.43 MB",
+          "num_threads": 203,
+          "started": "2026-10-29 08:49:47 UTC"
+        },
+        {
+          "pid": 4500,
+          "name": "CrossDeviceService.exe",
+          "username": "LAPTOP-732GBOVK\\abhin",
+          "status": "running",
+          "cpu_percent": 44.8,
+          "memory_percent": 3.0,
+          "rss_bytes": 121339904,
+          "vms_bytes": 113979392,
+          "rss_human": "115.72 MB",
+          "num_threads": 91,
+          "started": "2026-10-29 08:50:03 UTC"
+        },
+        {
+          "pid": 5388,
+          "name": "mc-fw-host.exe",
+          "username": "N/A",
+          "status": "running",
+          "cpu_percent": 77.8,
+          "memory_percent": 2.9,
+          "rss_bytes": 119758848,
+          "vms_bytes": 406544384,
+          "rss_human": "114.21 MB",
+          "num_threads": 188,
+          "started": "2026-10-29 08:49:50 UTC"
+        },
+        {
+          "pid": 13488,
+          "name": "PhoneExperienceHost.exe",
+          "username": "LAPTOP-732GBOVK\\abhin",
+          "status": "running",
+          "cpu_percent": 13.5,
+          "memory_percent": 2.6,
+          "rss_bytes": 107196416,
+          "vms_bytes": 105717760,
+          "rss_human": "102.23 MB",
+          "num_threads": 39,
+          "started": "2026-10-29 08:50:19 UTC"
+        },
+        {
+          "pid": 6620,
+          "name": "explorer.exe",
+          "username": "LAPTOP-732GBOVK\\abhin",
+          "status": "running",
+          "cpu_percent": 0.5,
+          "memory_percent": 2.4,
+          "rss_bytes": 96174080,
+          "vms_bytes": 179720192,
+          "rss_human": "91.72 MB",
+          "num_threads": 81,
+          "started": "2026-10-29 08:50:00 UTC"
+        },
+        {
+          "pid": 21244,
+          "name": "LockApp.exe",
+          "username": "LAPTOP-732GBOVK\\abhin",
+          "status": "stopped",
+          "cpu_percent": 0.0,
+          "memory_percent": 2.4,
+          "rss_bytes": 98906112,
+          "vms_bytes": 35893248,
+          "rss_human": "94.32 MB",
+          "num_threads": 17,
+          "started": "2026-11-05 05:46:18 UTC"
+        },
+        {
+          "pid": 11136,
+          "name": "language_server.exe",
+          "username": "LAPTOP-732GBOVK\\abhin",
+          "status": "running",
+          "cpu_percent": 1.8,
+          "memory_percent": 1.7,
+          "rss_bytes": 70651904,
+          "vms_bytes": 195006464,
+          "rss_human": "67.38 MB",
+          "num_threads": 24,
+          "started": "2026-11-05 03:52:48 UTC"
+        }
+      ]
+    }
+  }
+}

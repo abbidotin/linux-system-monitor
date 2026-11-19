@@ -1,0 +1,38 @@
+{
+  "general": {
+    "sampling_interval_seconds": 3,
+    "report_interval_seconds": 30,
+    "history_retention_points": 60,
+    "top_process_count": 8
+  },
+  "thresholds": {
+    "cpu_percent": {
+      "warning": 75.0,
+      "critical": 90.0
+    },
+    "ram_percent": {
+      "warning": 80.0,
+      "critical": 92.0
+    },
+    "swap_percent": {
+      "warning": 60.0,
+      "critical": 85.0
+    },
+    "disk_percent": {
+      "warning": 85.0,
+      "critical": 95.0
+    }
+  },
+  "alerts": {
+    "cooldown_seconds": 60,
+    "log_alerts_to_console": true
+  },
+  "paths": {
+    "log_file": "logs/monitor.log",
+    "reports_dir": "reports"
+  },
+  "reporting": {
+    "generate_json": true,
+    "generate_charts": true
+  }
+}

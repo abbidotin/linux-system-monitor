@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Output logs (keep folder via .gitkeep, ignore log files)
+logs/*.log
+
+# Generated test reports (keep folder via .gitkeep, ignore generated runs)
+# Note: Keep latest_report.png as sample preview if desired, or ignore all generated
+reports/system_report_*.json
+reports/system_report_*.png
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
